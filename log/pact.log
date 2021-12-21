@@ -1,0 +1,91 @@
+# Logfile created on 2021-12-20 16:53:06 +0300 by logger.rb/66358
+I, [2021-12-20T16:53:10.329376 #1898]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter exist get counter with GET /counter returns a response which has status code 200'
+I, [2021-12-20T16:53:10.329510 #1898]  INFO -- : Sending GET request to path: "/counter" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter exist"}]}, see debug logs for body
+D, [2021-12-20T16:53:10.329542 #1898] DEBUG -- : body :
+I, [2021-12-20T16:53:10.345385 #1898]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 20 Dec 2021 13:53:10 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-20T16:53:10.345451 #1898] DEBUG -- : body: 
+I, [2021-12-20T16:53:10.349048 #1898]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter increases get increased counter with GET /increase returns a response which has status code 200'
+I, [2021-12-20T16:53:10.349140 #1898]  INFO -- : Sending GET request to path: "/increase" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter increases"}]}, see debug logs for body
+D, [2021-12-20T16:53:10.349170 #1898] DEBUG -- : body :
+I, [2021-12-20T16:53:10.351153 #1898]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 20 Dec 2021 13:53:10 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-20T16:53:10.351216 #1898] DEBUG -- : body: 
+I, [2021-12-20T16:53:10.352349 #1898]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter decreases get decreased counter with GET /decrease returns a response which has status code 200'
+I, [2021-12-20T16:53:10.352466 #1898]  INFO -- : Sending GET request to path: "/decrease" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter decreases"}]}, see debug logs for body
+D, [2021-12-20T16:53:10.352496 #1898] DEBUG -- : body :
+I, [2021-12-20T16:53:10.354561 #1898]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 20 Dec 2021 13:53:10 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-20T16:53:10.354615 #1898] DEBUG -- : body: 
+I, [2021-12-20T16:53:38.522069 #1944]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter exist get counter with GET /counter returns a response which has status code 200'
+I, [2021-12-20T16:53:38.522208 #1944]  INFO -- : Sending GET request to path: "/counter" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter exist"}]}, see debug logs for body
+D, [2021-12-20T16:53:38.522244 #1944] DEBUG -- : body :
+I, [2021-12-20T16:53:38.536396 #1944]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 20 Dec 2021 13:53:38 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-20T16:53:38.536463 #1944] DEBUG -- : body: 
+I, [2021-12-20T16:53:38.539572 #1944]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter increases get increased counter with GET /increase returns a response which has status code 200'
+I, [2021-12-20T16:53:38.539677 #1944]  INFO -- : Sending GET request to path: "/increase" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter increases"}]}, see debug logs for body
+D, [2021-12-20T16:53:38.539710 #1944] DEBUG -- : body :
+I, [2021-12-20T16:53:38.541776 #1944]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 20 Dec 2021 13:53:38 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-20T16:53:38.541840 #1944] DEBUG -- : body: 
+I, [2021-12-20T16:53:38.542986 #1944]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter decreases get decreased counter with GET /decrease returns a response which has status code 200'
+I, [2021-12-20T16:53:38.543083 #1944]  INFO -- : Sending GET request to path: "/decrease" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter decreases"}]}, see debug logs for body
+D, [2021-12-20T16:53:38.543114 #1944] DEBUG -- : body :
+I, [2021-12-20T16:53:38.544859 #1944]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 20 Dec 2021 13:53:38 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-20T16:53:38.544922 #1944] DEBUG -- : body: 
+I, [2021-12-21T16:05:51.945041 #1241]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter exist get counter with GET /counter returns a response which has status code 200'
+I, [2021-12-21T16:05:51.959001 #1241]  INFO -- : Sending GET request to path: "/counter" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter exist"}]}, see debug logs for body
+D, [2021-12-21T16:05:51.959065 #1241] DEBUG -- : body :
+I, [2021-12-21T16:05:51.969541 #1241]  INFO -- : Received response with status: 502, headers: {"Date"=>"Tue, 21 Dec 2021 13:05:51 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-21T16:05:51.969612 #1241] DEBUG -- : body: 
+I, [2021-12-21T16:05:51.973101 #1241]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter increases get increased counter with GET /increase returns a response which has status code 200'
+I, [2021-12-21T16:05:51.981415 #1241]  INFO -- : Sending GET request to path: "/increase" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter increases"}]}, see debug logs for body
+D, [2021-12-21T16:05:51.981472 #1241] DEBUG -- : body :
+I, [2021-12-21T16:05:51.983406 #1241]  INFO -- : Received response with status: 502, headers: {"Date"=>"Tue, 21 Dec 2021 13:05:51 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-21T16:05:51.983455 #1241] DEBUG -- : body: 
+I, [2021-12-21T16:05:51.984584 #1241]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter decreases get decreased counter with GET /decrease returns a response which has status code 200'
+I, [2021-12-21T16:05:51.992971 #1241]  INFO -- : Sending GET request to path: "/decrease" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter decreases"}]}, see debug logs for body
+D, [2021-12-21T16:05:51.993031 #1241] DEBUG -- : body :
+I, [2021-12-21T16:05:51.994899 #1241]  INFO -- : Received response with status: 502, headers: {"Date"=>"Tue, 21 Dec 2021 13:05:51 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-21T16:05:51.994952 #1241] DEBUG -- : body: 
+I, [2021-12-21T16:10:10.975304 #1327]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter exist get counter with GET /counter returns a response which has status code 200'
+I, [2021-12-21T16:10:10.989010 #1327]  INFO -- : Sending GET request to path: "/counter" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter exist"}]}, see debug logs for body
+D, [2021-12-21T16:10:10.989067 #1327] DEBUG -- : body :
+I, [2021-12-21T16:10:10.998040 #1327]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"11", "Content-Type"=>"application/json", "Date"=>"Tue, 21 Dec 2021 13:10:10 GMT"}, see debug logs for body
+D, [2021-12-21T16:10:10.998088 #1327] DEBUG -- : body: {"value":0}
+I, [2021-12-21T16:10:11.000596 #1327]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter increases get increased counter with GET /increase returns a response which has status code 200'
+I, [2021-12-21T16:10:11.009069 #1327]  INFO -- : Sending GET request to path: "/increase" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter increases"}]}, see debug logs for body
+D, [2021-12-21T16:10:11.009112 #1327] DEBUG -- : body :
+I, [2021-12-21T16:10:11.010995 #1327]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"11", "Content-Type"=>"application/json", "Date"=>"Tue, 21 Dec 2021 13:10:10 GMT"}, see debug logs for body
+D, [2021-12-21T16:10:11.011035 #1327] DEBUG -- : body: {"value":1}
+I, [2021-12-21T16:10:11.011765 #1327]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter decreases get decreased counter with GET /decrease returns a response which has status code 200'
+I, [2021-12-21T16:10:11.019992 #1327]  INFO -- : Sending GET request to path: "/decrease" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter decreases"}]}, see debug logs for body
+D, [2021-12-21T16:10:11.020064 #1327] DEBUG -- : body :
+I, [2021-12-21T16:10:11.022445 #1327]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"11", "Content-Type"=>"application/json", "Date"=>"Tue, 21 Dec 2021 13:10:10 GMT"}, see debug logs for body
+D, [2021-12-21T16:10:11.022520 #1327] DEBUG -- : body: {"value":0}
+I, [2021-12-21T16:16:29.233088 #2145]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter exist get counter with GET /counter returns a response which has status code 200'
+I, [2021-12-21T16:16:29.243420 #2145]  INFO -- : Sending GET request to path: "/counter" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter exist"}]}, see debug logs for body
+D, [2021-12-21T16:16:29.243469 #2145] DEBUG -- : body :
+I, [2021-12-21T16:16:29.258184 #2145]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"11", "Content-Type"=>"application/json", "Date"=>"Tue, 21 Dec 2021 13:16:29 GMT"}, see debug logs for body
+D, [2021-12-21T16:16:29.258252 #2145] DEBUG -- : body: {"value":0}
+I, [2021-12-21T16:16:29.260953 #2145]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter increases get increased counter with GET /increase returns a response which has status code 200'
+I, [2021-12-21T16:16:29.269495 #2145]  INFO -- : Sending GET request to path: "/increase" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter increases"}]}, see debug logs for body
+D, [2021-12-21T16:16:29.269563 #2145] DEBUG -- : body :
+I, [2021-12-21T16:16:29.271618 #2145]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"11", "Content-Type"=>"application/json", "Date"=>"Tue, 21 Dec 2021 13:16:29 GMT"}, see debug logs for body
+D, [2021-12-21T16:16:29.271699 #2145] DEBUG -- : body: {"value":1}
+I, [2021-12-21T16:16:29.272640 #2145]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter decreases get decreased counter with GET /decrease returns a response which has status code 200'
+I, [2021-12-21T16:16:29.281095 #2145]  INFO -- : Sending GET request to path: "/decrease" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter decreases"}]}, see debug logs for body
+D, [2021-12-21T16:16:29.281154 #2145] DEBUG -- : body :
+I, [2021-12-21T16:16:29.283147 #2145]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"11", "Content-Type"=>"application/json", "Date"=>"Tue, 21 Dec 2021 13:16:29 GMT"}, see debug logs for body
+D, [2021-12-21T16:16:29.283189 #2145] DEBUG -- : body: {"value":0}
+I, [2021-12-21T16:17:55.854543 #2260]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter exist get counter with GET /counter returns a response which has status code 200'
+I, [2021-12-21T16:17:55.866374 #2260]  INFO -- : Sending GET request to path: "/counter" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter exist"}]}, see debug logs for body
+D, [2021-12-21T16:17:55.866500 #2260] DEBUG -- : body :
+I, [2021-12-21T16:17:55.884621 #2260]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"11", "Content-Type"=>"application/json", "Date"=>"Tue, 21 Dec 2021 13:17:55 GMT"}, see debug logs for body
+D, [2021-12-21T16:17:55.884690 #2260] DEBUG -- : body: {"value":0}
+I, [2021-12-21T16:17:55.885961 #2260]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter increases get increased counter with GET /increase returns a response which has status code 200'
+I, [2021-12-21T16:17:55.895157 #2260]  INFO -- : Sending GET request to path: "/increase" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter increases"}]}, see debug logs for body
+D, [2021-12-21T16:17:55.895209 #2260] DEBUG -- : body :
+I, [2021-12-21T16:17:55.897416 #2260]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"11", "Content-Type"=>"application/json", "Date"=>"Tue, 21 Dec 2021 13:17:55 GMT"}, see debug logs for body
+D, [2021-12-21T16:17:55.897486 #2260] DEBUG -- : body: {"value":1}
+I, [2021-12-21T16:17:55.898337 #2260]  INFO -- : Running example 'Verifying a pact between CounterClient and CounterApi Given counter decreases get decreased counter with GET /decrease returns a response which has status code 200'
+I, [2021-12-21T16:17:55.908158 #2260]  INFO -- : Sending GET request to path: "/decrease" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"counter decreases"}]}, see debug logs for body
+D, [2021-12-21T16:17:55.908267 #2260] DEBUG -- : body :
+I, [2021-12-21T16:17:55.910897 #2260]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"11", "Content-Type"=>"application/json", "Date"=>"Tue, 21 Dec 2021 13:17:55 GMT"}, see debug logs for body
+D, [2021-12-21T16:17:55.910956 #2260] DEBUG -- : body: {"value":0}

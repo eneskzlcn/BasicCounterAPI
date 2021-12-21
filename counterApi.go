@@ -1,7 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber/v2/middleware/cors"
+	"log"
 )
 
 type Counter struct {
@@ -27,14 +30,20 @@ func ResetHandler(c *fiber.Ctx) error {
 }
 
 // StartCounterApi starts the server
-func StartCounterApi() {
+func StartCounterApi(port int) error {
+
 	app := fiber.New()
+	app.Use(cors.New())
 	app.Get("/counter", CounterHandler)
 	app.Get("/increase", IncreaseHandler)
 	app.Get("/decrease", DecreaseHandler)
 	app.Get("/reset", ResetHandler)
-	app.Listen(":3003")
+	err := app.Listen(fmt.Sprintf(":%d", port))
+	return err
 }
 func main() {
-	StartCounterApi()
+	err:= StartCounterApi(5000)
+	if err != nil {
+		log.Fatal(err)
+	}
 }
