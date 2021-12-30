@@ -5,11 +5,17 @@
 *.so
 *.dylib
 
+#Do not include binary files s
+bin/
 # Test binary, built with `go test -c`
 *.test
 
+# Pact logs
+log/
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
-
+# environment file
 # Dependency directories (remove the comment below to include it)
 # vendor/
+* Jet brains ide..
+.idea/

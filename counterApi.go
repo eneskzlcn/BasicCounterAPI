@@ -42,7 +42,7 @@ func StartCounterApi(port int) error {
 	return err
 }
 func main() {
-	err:= StartCounterApi(5000)
+	err:= StartCounterApi(4000)
 	if err != nil {
 		log.Fatal(err)
 	}
